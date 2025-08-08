@@ -1,0 +1,72 @@
+body{
+   min-height: 722px;
+   justify-items: center;
+    align-content: center; 
+    background-image: linear-gradient(to left bottom, blue, rgb(0, 247, 255) );
+}
+
+.outer2{
+    background-color: black;
+    justify-items: center;
+    align-content: center; 
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+}
+
+
+.bulbouter{
+    background-color: #fff;
+    height: 450px ;
+    width: 450px;
+    border-radius: 100%;
+}
+
+.bulb-on{
+    background-image: linear-gradient(to left bottom, rgb(255, 174, 0), red);
+    height: 450px ;
+    width: 450px;
+    border-radius: 100%;
+    box-shadow: red, 2px ;
+    justify-items: center;
+    align-content: center; 
+   
+    
+}
+.hide{
+    display: none;
+}
+
+
+
+#btn{
+    background-image: linear-gradient(to right bottom, blue, rgb(0, 247, 255) ) ;
+    height: 50px;
+    width: 150px;
+    border: solid, #fff;
+    border-radius: 50px;
+    margin-left: 685px;
+}
+
+#btn:hover{
+    background-image: linear-gradient(to right bottom, rgb(255, 174, 0), red);
+
+}
+.btn2{
+    background-image: linear-gradient(to left bottom, rgb(255, 174, 0), red);
+    height: 50px;
+    width: 150px;
+    border: solid, #fff;
+    border-radius: 50px;
+     margin-left: 685px;
+}
+
+.btn2:hover{
+   
+     background-image: linear-gradient(to left bottom, blue, rgb(0, 247, 255) ) ;
+}
+.h1{
+     font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
